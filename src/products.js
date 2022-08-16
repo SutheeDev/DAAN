@@ -1,0 +1,58 @@
+export const products = [
+    {
+        id: 1,
+        productName: 'Small Convertible Flx Bag',
+        price: 320.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-small-convertible-flex-bag-cappuccino-n1_360x.jpg?v=1637107143',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-small-convertible-flex-bag-cappuccino-n2_360x.jpg?v=1637107143',
+    },
+    {
+        id: 1,
+        productName: 'Studio Bag',
+        price: 465.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-studio-denim-1_cb1da2bc-0ed8-4836-a120-dcf9f2caf1e3_360x.jpg?v=1637108123',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-studio-denim-4_f841accc-a055-4250-a646-fe53c956b3af_360x.jpg?v=1637108123',
+    },
+    {
+        id: 1,
+        productName: 'Louise Slide Sandal',
+        price: 395.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-louise-slide-sandal-buttermilk-1_b91db288-b05a-4882-ae45-c0c9a4edd5fb_360x.jpg?v=1637106712',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-louise-slide-sandal-buttermilk-5_04f1f6dd-4f7c-498b-bce7-2932fa651c00_360x.jpg?v=1637106712',
+    },
+    {
+        id: 1,
+        productName: 'Mini Naomi Bag',
+        price: 299.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-mini-naomi-bag-harvest-1_360x.jpg?v=1637107230',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-mini-naomi-bag-harvest-2_360x.jpg?v=1637107230',
+    },
+    {
+        id: 1,
+        productName: 'Helix',
+        price: 470.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-helix-multicolor-2_1800x1800_10c62242-6743-4d46-a251-defa246dd195_360x.jpg?v=1637107119',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-helix-multicolor-4_1800x1800_fccc27b4-a30a-49ee-b1b8-81aafe12034a_360x.jpg?v=1637107119',
+    },
+    {
+        id: 1,
+        productName: 'Bo Ivy',
+        price: 390.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-bo-ivy-emerald-1_73c3987e-5ec7-4e72-879a-2ba2e560648f_360x.jpg?v=1637107948',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-bo-ivy-emerald-2_e192bf00-1ce2-4ae4-9061-9828e59229df_360x.jpg?v=1637107948',
+    },
+    {
+        id: 1,
+        productName: 'Pleated Heel Mule',
+        price: 495.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-pleated-mules-off-white-1_1800x1800_2c06129f-4e73-4ffa-ad8b-39e8d4486d1a_360x.jpg?v=1637106673',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-pleated-heel-mules-denim-5_edbc146e-5629-4f5d-8614-2e0972a09f16_360x.jpg?v=1637106673',
+    },
+    {
+        id: 1,
+        productName: 'Brick',
+        price: 385.00,
+        img1: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-brick-oil-yellow-1_360x.jpg?v=1637107420',
+        img2: 'https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-brick-oil-yellow-2_360x.jpg?v=1637107420',
+    },
+];
