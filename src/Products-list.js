@@ -12,12 +12,12 @@ export const ProductsList = () => {
         
     )
 };
-
 const Product = (props) => {
     const {productName, price, img1, img2} = props;
     return (
         <a className='product-container' href='#'>
             <img className='product-images' src={img1} alt="" />
+            <img className='product-images img-2' src={img2} alt="" />
             <p className='product-name'>{productName}</p>
             <p className='price'>${price} CAD</p>
         </a>
