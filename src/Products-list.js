@@ -16,10 +16,10 @@ export const ProductsList = () => {
 const Product = (props) => {
     const {productName, price, img1, img2} = props;
     return (
-        <div className='product-container'>
-            <img src={img1} alt="" />
+        <a className='product-container' href='#'>
+            <img className='product-images' src={img1} alt="" />
             <p className='product-name'>{productName}</p>
-            <p className='price'>{price}</p>
-        </div>
+            <p className='price'>${price} CAD</p>
+        </a>
     )
 };
