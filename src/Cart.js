@@ -10,11 +10,11 @@ export const Cart = () => {
             <div className="cart-header">
                 <p>Product</p>
                 <p>Quantity</p>
-                <p>Total</p>
+                <p className='total'>Total</p>
             </div>
             <div className="cart-container">
                 <div className="item-container">
-                    <img src="" alt="" />
+                    <img src="https://cdn.shopify.com/s/files/1/0551/9242/0441/products/mlouye-small-convertible-flex-bag-cappuccino-n1_360x.jpg?v=1637107143" alt="" />
                     <div className="item-info"></div>
                     <div className="item-quantity"></div>
                     <p className='item-price'>$390.00</p>

@@ -8,6 +8,8 @@
     --h3: 2.25rem;
 
     --black: #212121;
+    --grey: #a8a8a8;
+    --lineColor: #dcdcdcac;
 }
 body {
     font-family: var(--space);
@@ -119,3 +121,17 @@ a {
 /* ------------------ */
 /* Cart .cart-header */
 /* ------------------ */
+.cart-header {
+    border-bottom: 0.5px solid var(--lineColor);
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+    padding: 20px 0;
+}
+.cart-header p {
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    color: var(--grey);
+}
+.total {
+    text-align: right;
+}
