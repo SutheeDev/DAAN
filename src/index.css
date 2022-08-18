@@ -10,6 +10,7 @@
     --black: #212121;
     --grey: #a8a8a8;
     --lineColor: #dcdcdcac;
+    --white: #ffffff;
 }
 body {
     font-family: var(--space);
@@ -20,11 +21,18 @@ a {
     font-weight: 400;
     color: var(--black);
 }
-.productList, .cart {
+.productList {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 25px 50px 70px 50px;
+}
+.cart {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 50px 70px 50px;
+
 }
 .productList {
     display: grid;
@@ -117,6 +125,7 @@ a {
     font-size: 0.875rem;
     padding-bottom: 0.2px;
     border-bottom: 0.5px solid var(--black);
+    outline: none;
 }
 /* ------------------ */
 /* Cart .cart-header */
@@ -124,8 +133,9 @@ a {
 .cart-header {
     border-bottom: 0.5px solid var(--lineColor);
     display: grid;
-    grid-template-columns: 4fr 3fr 1fr;
+    grid-template-columns: 5fr 3fr 1fr;
     padding: 20px 0;
+    /* margin-bottom: 15px; */
 }
 .cart-header p {
     text-transform: uppercase;
@@ -134,4 +144,73 @@ a {
 }
 .total {
     text-align: right;
+}
+/* ------------------ */
+/* Cart .cart-container */
+/* ------------------ */
+.cart-container {
+    padding: 25px 0;
+}
+.cart-header + .cart-container {
+    padding-top: 40px;
+}
+.item-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr 3fr 1fr;
+    align-items: flex-start;
+}
+.item-img {
+    min-width: 95px;
+    max-width: 105px;
+}
+.item-info {
+    margin-left: 40px;
+}
+.item-info p {
+    margin-bottom: 7px;
+}
+.item-name {
+    font-size: 0.875rem;
+}
+.item-price, .item-color {
+    font-size: 0.75rem;
+    color: var(--grey);
+}
+.remove-item-btn {
+    width: 17px;
+    margin: 0 20px;
+}
+.item-quantity {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.item-amount {
+    width: 145px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 0.1px solid var(--black);
+    background-color: var(-white);
+}
+.decrease-btn, .increase-btn {
+    border: none;
+    background-color: var(--white);
+}
+.item-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-price {
+    height: 48px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.line {
+    width: 100%;
+    height: 0.5px;
+    background-color: var(--lineColor);
+    margin-top: 15px;
 }
