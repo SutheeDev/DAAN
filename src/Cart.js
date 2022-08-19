@@ -14,14 +14,7 @@ const Cart = () => {
             <ItemInCart/>
             <ItemInCart/>
             <div className="line"></div>
-            <div className="cart-subtotal">
-                <div className="subtotal">
-                    <p>Subtotal</p>
-                    <p>$<span className='subtotal-amount'>855.00</span> CAD</p>
-                </div>
-                <p className='tax-info'>Taxes and shipping calculated at checkout</p>
-                <button className='checkout-btn'>Check out</button>
-            </div>
+            <CartSubtotal/>
         </article>
     )
 };
@@ -65,6 +58,17 @@ const ItemInCart = () => {
                 </div>
                 <p className='items-price'>$390.00</p>
             </div>
+        </div>
+    )
+};
+const CartSubtotal = () => {
+    return (
+        <div className="cart-subtotal">
+            <div className="subtotal">
+                <p>Subtotal <span className='subtotal-amount'>$855.00 CAD</span></p>
+            </div>
+            <p className='tax-info'>Taxes and shipping calculated at checkout</p>
+            <button className='checkout-btn'>Check out</button>
         </div>
     )
 };
