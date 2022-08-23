@@ -23,6 +23,10 @@ a {
   font-weight: 400;
   color: var(--black);
 }
+ul,
+li {
+  list-style: none;
+}
 .productList {
   width: 100%;
   max-width: 1200px;
@@ -252,8 +256,61 @@ a {
 /* ------------------ */
 /* Header */
 /* ------------------ */
-.search-icon,
-.client-icon,
-.bag-icon {
-  /* background-color: red; */
+.header {
+  border-bottom: 0.1px solid var(--lineColor);
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 50px 30px 50px;
+}
+.header-nav-links {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+}
+.bag {
+  position: relative;
+}
+.header-icons {
+  display: flex;
+  align-items: flex-end;
+}
+.search,
+.client,
+.bag {
+  margin-left: 25px;
+}
+.product-amount {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  letter-spacing: 6px;
+}
+.links li {
+  margin-left: 30px;
+}
+.links li:first-child {
+  margin-left: 40px;
+}
+.links a {
+  font-size: 0.875rem;
+  padding-bottom: 0.5px;
+}
+.links svg {
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+.active {
+  border-bottom: 0.5px solid var(--black);
 }
