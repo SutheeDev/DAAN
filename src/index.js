@@ -3,6 +3,7 @@ import ReactDom from 'react-dom'
 import {ProductsList} from './Products-list'
 import {CartSection} from './Cart'
 import {Header} from './Header'
+import {Footer} from './Footer'
 
 import './index.css'
 
@@ -12,6 +13,7 @@ const App = () => {
       <Header/>
       <ProductsList/>
       <CartSection/>
+      <Footer/>
     </>
   )
 }
