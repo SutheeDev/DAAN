@@ -252,24 +252,8 @@ a {
 /* ------------------ */
 /* Header */
 /* ------------------ */
-.down-arrow {
-  width: 10px;
-}
-.header-icons svg {
-  width: 100%;
-  height: 100%;
-}
-.search-icon {
-}
-.client-icon {
-  transform: scale(0.02);
-}
+.search-icon,
+.client-icon,
 .bag-icon {
-  transform: scale(0.045);
-  /* width: 20px; */
-}
-.search,
-.client,
-.bag {
-  background-color: red;
+  /* background-color: red; */
 }
