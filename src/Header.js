@@ -6,7 +6,7 @@ export const Header = () => {
             <div className="header-container">
                 <div className='header-nav-links'>
                     <h3 className="logo">
-                        Dawn
+                        Daan
                     </h3>
                     <nav>
                         <ul className='links'>
